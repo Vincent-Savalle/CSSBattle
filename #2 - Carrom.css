@@ -1,0 +1,16 @@
+<p id="a"><p id="b"><p id="c"><p id="d">
+  <style>
+    body{
+      background:#62374e;
+    }
+    p{
+      width:50;
+      height:50;
+      background: #fdc57b;
+      position:absolute;  
+    }
+    #a,#b{top:34}
+    #c,#d{bottom:34}
+    #a,#c{left:50}
+    #b,#d{right:50}
+  </style>

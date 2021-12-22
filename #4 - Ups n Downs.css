@@ -1,0 +1,18 @@
+<p a><p b><p c>
+  <style>
+    body{
+      margin-top:50;
+      background:#62306D;
+      display:flex;
+      justify-content:center;
+    }
+    p[a],p[c]{
+      transform: rotate(180deg) translateY(-100%);
+    }
+    p{
+      margin:0;
+      border-radius:50% 50% 0% 0%;
+      height:100;
+      width:100;
+      background:#F7EC7D;
+    }

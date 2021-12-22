@@ -1,0 +1,21 @@
+<p a><p b><p c>
+<style>
+  body {
+    margin:0;
+    display:flex;
+    background:#0B2429;
+  }
+  p {
+    margin:0;
+    position:absolute;
+    width:120px;
+    height:120px;
+    background:#F3AC3C;
+    border-radius:50% 0% 50% 50%;
+  }
+  p[a]{right:80;top:30;}
+  p[b]{top:90;right:140}
+  p[c]{left:80;top:150}
+  p:nth-child(even){background:#998235;}
+  p:nth-child(0n+1){border-radius:50%;}
+</style>v
